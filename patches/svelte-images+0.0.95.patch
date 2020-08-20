@@ -1,0 +1,38 @@
+diff --git a/node_modules/svelte-images/src/Images/Images.svelte b/node_modules/svelte-images/src/Images/Images.svelte
+index c1f7f61..1bd19e0 100644
+--- a/node_modules/svelte-images/src/Images/Images.svelte
++++ b/node_modules/svelte-images/src/Images/Images.svelte
+@@ -33,16 +33,16 @@
+   }
+ 
+   :global(.svelte-images-gallery img) {
+-    width: 100%;
+-    min-height: 50px;
+-    height: auto !important;
++    min-width: 50px;
++    height: 100%;
++    width: auto !important;
+     cursor: pointer;
+     margin: calc(var(--gutter) * 2px);
+   }
+   :global(.svelte-images-gallery img:hover) {
+     opacity: 0.5;
+     transition: none;
+-    filter: grayscale(0.5) blur(1px);
++    filter: grayscale(0.1) blur(1px);
+   }
+ </style>
+ 
+diff --git a/node_modules/svelte-images/src/Images/Modal.svelte b/node_modules/svelte-images/src/Images/Modal.svelte
+index 34d676c..64ebc35 100644
+--- a/node_modules/svelte-images/src/Images/Modal.svelte
++++ b/node_modules/svelte-images/src/Images/Modal.svelte
+@@ -44,7 +44,7 @@
+     justify-content: center;
+     width: 100vw;
+     height: 100vh;
+-    background: rgba(0, 0, 0, 0.66);
++    background: rgba(0, 0, 0, 0.99);
+     transition: opacity 200ms ease 0s;
+     top: 0;
+     left: 0;

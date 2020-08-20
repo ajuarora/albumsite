@@ -1,0 +1,47 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@beyonk/svelte-carousel": "^2.8.0",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "fa-svelte": "^3.1.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^2.1.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0",
+    "tinro": "^0.2.10"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "bootstrap": "^5.0.0-alpha1",
+    "buhrmi": "0.0.15",
+    "croppr": "^2.3.1",
+    "face-api.js": "^0.22.2",
+    "file-upload-thumbnail": "^0.1.1",
+    "firebase": "^7.16.1",
+    "jimp": "^0.14.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.27.0",
+    "sharp": "^0.25.4",
+    "sirv-cli": "^0.4.4",
+    "svelte-chota": "^1.7.1",
+    "svelte-easy-crop": "^1.0.3",
+    "svelte-feather-icons": "^3.2.2",
+    "svelte-images": "0.0.95",
+    "svelte-imgcrop": "^1.0.0",
+    "svelte-loading-spinners": "^0.1.1",
+    "svelte-swipe": "^1.7.0",
+    "svelte-swiper": "^0.1.1",
+    "sveltefileuploadcomponent": "^0.1.0",
+    "sveltik": "^0.1.13",
+    "uuid": "^8.3.0"
+  }
+}
